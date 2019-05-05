@@ -9,3 +9,4 @@ ssh_authorized_key { 'root@srvali':
   user => 'root',
   type => 'ssh-rsa',
   key  => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCscST9ur28C/s+b307mHXh49nZG3VEjlDnFaPG7bE4d1MJffZjGlDbhRdzq+al6b9V0ouIw9Gm7R16abu+zmBgs/VVkN75OUOwMUUYUutc+FTgb5YVWT0FQMnVhMXRY2Cfbw3vyprXCt3KHrVUGGmseNd9W49psRkg5XfAGxILLpjqFCCY8BWc2f1j5lDNZdYhWDmZM7rXs/r1tp2x/nkRcTRNozDn0fndSEZbKSvPRJn40qwRjPnrv9smBDnlFVZ1BMCBziRYrGT8srKFCtUAWNNjZUpflux13h6ck4xDfglDPl2uLm2FA4vKI1MEDF/8/ixDy1bt4YJw5P8rNoyn',
+}
