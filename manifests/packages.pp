@@ -1,14 +1,14 @@
 # Set up regular Puppet runs
 file { '/tmp/AAAAA.txt':
-  ensure  => present,
+  ensure  => absent,
   content => 'AAAAAAAAAAAAAAAAAAAAAA',
-  owner   => 'vagrant',
+  owner   => 'root',
   mode    => '0777',
 }
 
 $needs = [ 'tmux', 'sysdig', 'atop', 'htop', 'dstat', 'vlan', 'puppet-lint' , ]
 
 package { $needs:
-  ensure => 'installed',
+  ensure => 'absent',
 }
 
