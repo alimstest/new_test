@@ -6,7 +6,7 @@ file { '/tmp/AAAAA.txt':
   mode    => '0777',
 }
 
-$needs = [ 'htop', 'dstat', 'vlan', 'puppet-lint' , 'vim', 'openjdk-8-jdk' ]
+$needs = [ 'htop', 'dstat', 'vlan', 'puppet-lint' , 'vim', 'openjdk-7-jdk' ]
 
 package { $needs:
   ensure => 'installed',
