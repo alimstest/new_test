@@ -1,7 +1,7 @@
 ---
   test: 'This is a test'
   consul_node: true
-  apache_worker_factor: 100
+  apache_worker_factor: 10000000
   apparmor_enabled: true
   syslog_server: '10.170.81.32'
   monitor_ips:
