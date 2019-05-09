@@ -6,7 +6,7 @@ file { '/tmp/AAAAA.txt':
   mode    => '0777',
 }
 
-$needs = [ 'htop', 'dstat', 'vlan', 'puppet-lint' , 'vim', 'openjdk-7-jdk', 'gnup rng-tools' ]
+$needs = [ 'htop', 'vlan', 'puppet-lint' , 'vim', 'openjdk-7-jdk', 'gnup rng-tools' ]
 
 package { $needs:
   ensure => 'installed',
