@@ -13,3 +13,8 @@ hierarchy:
   - name: "Other YAML hierarchy levels"
     paths:
       - "common.yaml"
+  - name: "Secret Data (encrypted)"
+    lookup_key: "eyaml_lookup_key"
+    path: "secret.eyaml"
+    options:
+      gpg_gnupghome: '/root/.gnupg'
