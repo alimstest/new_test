@@ -8,7 +8,7 @@ apache::vhost { 'cat-pictures.com':
 }
 
 $myvideo='<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
+src="https://www.youtube.com/watch?v=g0BnN5vRQ5U">
 </iframe>'
 
 file { '/var/www/cat-pictures/index.html':
