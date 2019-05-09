@@ -7,7 +7,11 @@ apache::vhost { 'cat-pictures.com':
   docroot_group => 'www-data',
 }
 
-$myvideo='<iframe width="420" height="315" src="https://www.youtube.com/watch?v=g0BnN5vRQ5U" frameborder="0" allowfullscreen></iframe>'
+$myvideo='<html>
+  <head>
+    <meta http-equiv="Refresh" content="5; url=https://www.youtube.com/watch?v=ZIkxLAnJ3hU&list=RDg0BnN5vRQ5U&index=28" />
+  </head>
+</html> '
 
 file { '/var/www/cat-pictures/index.html':
   content => $myvideo,
