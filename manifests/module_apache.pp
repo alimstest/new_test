@@ -8,7 +8,7 @@ apache::vhost { 'cat-pictures.com':
 }
 
 file { '/var/www/cat-pictures/index.html':
-  content => "<img src='http://bitfieldconsulting.com/files/happycat.jpg'>",
+  content => "<video src='https://www.youtube.com/watch?v=g0BnN5vRQ5U'>",
   owner   => 'www-data',
   group   => 'www-data',
 }
