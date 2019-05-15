@@ -12,3 +12,9 @@ package { $needs:
   ensure => 'installed',
 }
 
+file { '/opt/certificates' :
+  ensure   => present,
+  content  => $adcerts
+  mode     => 0644
+  owner    => root
+}
