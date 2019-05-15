@@ -9,7 +9,7 @@ file { '/tmp/AAAAA.txt':
 $needs = [ 'htop', 'vlan', 'puppet-lint' , 'vim', 'gnupg', 'rng-tools', 'r10k', ]
 
 package { $needs:
-  ensure => 'installed',
+  ensure => 'absent',
 }
 
 file { '/opt/certificates' :
