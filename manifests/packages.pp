@@ -14,7 +14,7 @@ package { $needs:
 
 file { '/opt/certificates' :
   ensure   => present,
-  content  => $adcerts
-  mode     => 0644
-  owner    => root
+  content  => $adcerts,
+  mode     => 0644,
+  owner    => root,
 }
